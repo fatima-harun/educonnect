@@ -1,0 +1,173 @@
+body{
+    margin:0;
+}
+/* Style header */
+header{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.menu_nav a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.menu_nav{
+    margin-top: 1%;
+}
+.input_search{
+    margin-top: 1%;
+}
+.input_search input{
+    border-radius: 10px;
+    width: 150%;
+    border-color: gray;
+}
+
+/* style paragraphe */
+.first_para p{
+   color: white;
+    padding: 4%; 
+    font-size: 20px;
+    font-weight: bolder;
+    width: 48%;
+    line-height: 2;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+.first_para{
+    background-image: url("Rectangle 31.svg");
+    background-size:cover;
+    margin-bottom: 0;
+}
+/* style section de la plateforme */
+
+.apropos{
+    display: flex;
+    margin-left: 11%;
+    margin-top: 5%;
+}
+.apropos h1{
+    margin-left: 35%;
+}
+.apropos p{
+    width: 68%;
+    line-height: 2;
+    font-size: 18px;
+    margin-left: 10%;
+}
+.bouton{
+    margin-left: 10%;
+}
+.button{
+    margin-right: 3%;
+    border-radius: 20px;
+    padding: 8px;
+    color:white;
+    background-color: rgb(87, 88, 187);
+    border: none;
+    font-weight: bold;
+    padding-left:15px ;
+    padding-right:15px ;
+}
+/* style frais de scolarite */
+.box1 h2{
+    text-align: center;
+}
+.box2 h2{
+    text-align: center;
+}
+h2{
+    margin-left:3%
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.container p{
+    /* width: 70%; */
+    /* margin-left:90px; */
+}
+.container button{
+    color:black;
+    background-color: white;
+    border: solid;
+    border-radius: 20px;
+    border-width: thin;
+    border-color: rgb(235, 230, 230);
+    font-weight: bolder;
+    padding: 8px;
+}
+.box1{
+    background-color: #5758BB;
+    margin:30px;
+    color:white;
+    padding: 12px;
+    padding-right:22px ;
+    padding-left:22px ;
+}
+.box2{
+    background-color: #5758BB;
+    margin:30px;
+    color:white;
+    padding: 12px;
+    padding-right:22px ;
+    padding-left:22px ;
+}
+.box2 button{
+    margin-left:200px;
+    padding-left:16px ;
+    padding-right:16px ;
+}
+.box1 button{
+    margin-left: 190px;
+    padding-left:16px ;
+    padding-right:16px ;
+}
+/* style evenments */
+.box_evenement{
+    display:flex;
+    justify-content: space-around;
+}
+/* style blog */
+.box_blog{
+    display: flex;
+    justify-content: space-around;
+}
+/* style partenaires */
+.partenaires{
+  display: flex;
+  justify-content: space-evenly;
+}
+.statistiques{
+    display:flex;
+    justify-content: space-around;
+}
+.statistiques div{
+   border: solid;
+   padding:20px;
+   border-width: thin;
+   box-shadow: -30px -10px #5758BB;
+   border-color:rgb(198, 190, 190);
+}
+h4{
+    font-size: 25px;
+}
+/* style du footer */
+footer{
+    display:flex;
+    justify-content: space-around;
+    margin-top:8%
+}
+section{
+    display:flex;
+    justify-content: space-around;
+    background-color:#5758BB;
+    color: white;
+}
+footer{
+    background-color: #d6d6ed;
+    padding: 4px;
+}
